@@ -9,7 +9,6 @@ public class ApiResponse {
     @SerializedName("message")
     private String message;
 
-    // The JSON array is returned as an escaped String, so we map it as a String
     @SerializedName("data")
     private String data;
 
