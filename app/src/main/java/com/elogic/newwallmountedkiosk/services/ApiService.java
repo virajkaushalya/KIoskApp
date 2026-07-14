@@ -12,7 +12,7 @@ import retrofit2.http.POST;
 
 public interface ApiService {
     @GET("api.php")
-    Call<ApiResponse> getTerminals();
+    Call<ApiResponse> getTerminals();  //call
 
     @POST("api.php")
     Call<LoginResponse> loginUser(@Body LoginRequest request);
